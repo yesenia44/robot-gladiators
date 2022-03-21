@@ -15,7 +15,7 @@ var randomNumber = function(40, 60) {
     return value;
 };
 
-// figth function (now with parameter for enemy's name)
+// fight function (now with parameter for enemy's name)
 var fight = function(enemyName) {
     while (playerInfo.health > 0 && enemy.health > 0) {
         // ask player if they'd like to fight or run
